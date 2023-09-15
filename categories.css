@@ -35,9 +35,8 @@ a:hover{
     color: cadetblue;
 }
 footer{
-    display: inline-block;
     width: 100vw;
-    max-height: 15vh;
+    height: 15vh;
     padding: 2% 1%;
     background-color: white;
     position: sticky;

@@ -17,6 +17,7 @@ header{
     max-height: 25vh;
     background-color: white;
     position: sticky;
+    top: 0;
 }
 .logo{
     width: 14vh;
@@ -31,4 +32,19 @@ a{
 a:hover{
     font-weight: bold;
     color: cadetblue;
+}
+footer{
+    display: inline-block;
+    width: 100vw;
+    max-height: 15vh;
+    padding: 2% 1%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+}
+.logoo{
+    width: 3px;
+    height: 3px;
+    padding: 0 5px;
+    position: relative;
 }

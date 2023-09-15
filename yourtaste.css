@@ -57,7 +57,7 @@ footer{
     width: 100vw;
     min-height: 20vh;
     margin: 5% 0;
-    gap: 5%;
+    gap: 10%
 }
 article{
     display: inline-block;
@@ -72,20 +72,21 @@ article{
 .cover{
     display: inline-block;
     min-width: 12vw;
-    height: 35vh;
+    height: 20vh;
     padding: 10%;
     border-radius: 20%;
     text-align: center;
 }
-table{
+.description{
+    border: 4px solid cadetblue;
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
     margin: 5%;
-    text-align: center;
-    width: 90vw;
-    border: 3px palegreen solid;
+    padding: 2%;
+    line-height: 5%;
 }
-tbody tr:nth-child(odd) {
-    background-color: palegreen;
+.description1{
+    margin: 0 3%;
+    padding: 0 2%;
 }
-tbody tr:nth-child(even) {
-    background-color: papayawhip;
-  }

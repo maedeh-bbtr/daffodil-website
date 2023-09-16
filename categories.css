@@ -34,14 +34,6 @@ a:hover{
     font-weight: bold;
     color: cadetblue;
 }
-footer{
-    width: 100vw;
-    height: 15vh;
-    padding: 2% 1%;
-    background-color: white;
-    position: sticky;
-    bottom: 0;
-}
 .logoo{
     width: 3px;
     height: 3px;
@@ -81,4 +73,8 @@ article{
     margin-top: 3%;
     padding: 2%;
     position: relative;
+    text-align: justify;
+}
+img + P{
+    font-weight: bold;
 }

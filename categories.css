@@ -34,7 +34,14 @@ a:hover{
     font-weight: bold;
     color: cadetblue;
 }
-.logoo{
+footer{
+    display: inline-block;
+    width: 100vw;
+    height: 15vh;
+    padding: 2% 1%;
+    background-color: white;
+}
+footer a{
     width: 3px;
     height: 3px;
     padding: 0 5px;
@@ -47,7 +54,6 @@ a:hover{
     flex-wrap: wrap;
     align-content: flex-start;
     width: 100vw;
-    height: 60vh;
     margin-bottom: 15%;
     gap: 10px;
 }
@@ -82,7 +88,7 @@ article{
 }
 h2{
     display: inline-block;
-    padding: 5%;
+    padding: 3%;
     border-right: solid 4px cadetblue;
 }
 img + P{

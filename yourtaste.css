@@ -74,8 +74,13 @@ article{
     display: inline-block;
     position: relative;
     border-radius: 10px;
-    margin: 3%;
+    margin: 5%;
     padding: 2%;
+    line-height: 5%;
+}
+.description1{
+    margin: 0 3%;
+    padding: 0 2%;
 }
 img + P{
     font-weight: bold;

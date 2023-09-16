@@ -70,10 +70,20 @@ article{
     text-align: center;
 }
 .description{
-    margin-top: 3%;
+    margin: 3%;
     padding: 2%;
     position: relative;
     text-align: justify;
+    border: 4px solid cadetblue;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border-radius: 10px;
+}
+h2{
+    display: inline-block;
+    padding: 5%;
+    border-right: solid 4px cadetblue;
 }
 img + P{
     font-weight: bold;

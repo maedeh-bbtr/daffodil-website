@@ -93,3 +93,7 @@ button{
     padding: 8px;
     border-radius: 4px;
 }
+label{
+    padding: 15px 0;
+    display: inline-block;
+}
